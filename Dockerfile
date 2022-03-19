@@ -14,5 +14,5 @@ ENV PORT=${PORT}
 
 EXPOSE 1234
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
 
